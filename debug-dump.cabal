@@ -1,9 +1,9 @@
 cabal-version: 1.18
 name: debug-dump
 version: 0.1.0.0
-license: Apache-2.0
-license-file: LICENSE NOTICE
-copyright: Copyright: (c) 2019 IOHK
+license: BSD3
+license-file: LICENSE
+copyright: Copyright: (c) 2019 Vanessa McHale
 maintainer: vanessa.mchale@iohk.io
 author: Vanessa McHale
 synopsis: File-based debug output
@@ -16,7 +16,7 @@ extra-doc-files: README.md
 
 source-repository head
     type: git
-    location: https://github.com/input-output-hk/plutus
+    location: https://github.com/vmchale/debug-dump
     subdir: debug-dump
 
 flag development
